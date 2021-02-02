@@ -31,3 +31,10 @@ assertEqual(tail(empty).length,0);
 
 const single = 'single';
 assertEqual(tail(single.length).length, 0);
+
+x = 12;
+if(true) {
+  x + 2;
+  x = 4;
+}
+console.log(x);
