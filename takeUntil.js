@@ -70,3 +70,6 @@ assertArrayEquals(results1,testData1);
 assertArrayEquals(results1,data1);
 assertArrayEquals(results2,testData2);
 assertArrayEquals(results2,data2);
+
+
+module.exports = takeUntil;

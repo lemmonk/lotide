@@ -58,3 +58,5 @@ const flatten = function(bag) {
 
 console.log(flatten(bagOfCandy));
 assertArrayEquals(bagOfCandy, ['chocolate bars', ['gum'],['candy apple', 'soda'], 'chips']);
+
+module.exports = flatten;

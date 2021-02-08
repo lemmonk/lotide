@@ -81,5 +81,5 @@ const obj3 = {
 assertObjectsEqual(obj1,obj2);// => false
 assertObjectsEqual(obj1,obj3); // => true
 
-
+module.exports = assertObjectsEqual;
 

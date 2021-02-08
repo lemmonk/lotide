@@ -40,3 +40,6 @@ const result1 = countLetters(letters);
 assertEqual(result1["H"], 1);
 assertEqual(result1["l"], 3);
 assertEqual(result1["X"], undefined);
+
+
+module.exports = countLetters;

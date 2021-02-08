@@ -60,3 +60,6 @@ assertArrayEquals(results1[4],words[4][0]);
 assertArrayEquals(words,["ground", "control", "to", "major", "tom"]);
 assertArrayEquals(results1,words);
 
+
+module.exports = map;
+

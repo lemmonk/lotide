@@ -59,3 +59,5 @@ console.log(without(["1", "LHL", "3"], ['1', "2", "3"]));
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); 
 assertArrayEquals(words, ["hello", "world", "lighthouse"]);
+
+module.exports = without;
