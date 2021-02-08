@@ -1,0 +1,31 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "Lotide Project LHL",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemmonk/lotide.git"
+  },
+  "keywords": [
+    "lotide",
+    "lighthouse",
+    "labs"
+  ],
+  "author": "Kyle Lemmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemmonk/lotide/issues"
+  },
+  "homepage": "https://github.com/lemmonk/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1"
+  }
+}
